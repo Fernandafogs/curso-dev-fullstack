@@ -1,0 +1,16 @@
+
+body{
+    background: url(https://th.bing.com/th/id/OIP.vZfKN7Zwa8exegmRJDwIoQHaEo?pid=ImgDet&rs=1);
+}
+
+
+ul{
+    background: gray;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}
