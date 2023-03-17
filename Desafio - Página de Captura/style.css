@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: url(img/background.png);
+    background-size: cover;
+}
+
+.logo{
+    width: 80px;
+
+}
+
+.container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin top: 50px;
+    padding-top: 100px;
+}
+
+
+h1, h2, h3 {
+    color: white;
+
+}
+
+.formulario{
+    width: 30%;
+}
+
+.nome, .email, button{
+    width: 100%;
+    height: 35px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+.label-checkbox {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+
+.button{
+    background-color: rgb(27, 196, 238);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+}
