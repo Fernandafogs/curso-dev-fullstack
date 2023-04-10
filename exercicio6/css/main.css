@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.container .box {
+  width: 30%;
+  color: black;
+  background-color: rgb(226, 218, 218);
+  box-shadow: 3px 3px black;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+.container .box h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=main.css.map */

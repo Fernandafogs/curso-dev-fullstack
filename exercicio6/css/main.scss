@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'base';
+
+.container{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+
+    .box {
+        width: 30%;
+        color: black;
+        background-color: $color-secondary;
+        box-shadow: 3px 3px black;
+        border-radius: 5px;
+        padding: 20px;
+        font-family: $font-primary;
+
+        h3{
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+    }
+}
+
