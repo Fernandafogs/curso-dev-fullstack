@@ -1,0 +1,29 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    
+}
+
+.form{
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: lightgray;
+
+}
+
+h3{
+    color: green;
+}
+
+span,div{
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: smaller;
+}
+

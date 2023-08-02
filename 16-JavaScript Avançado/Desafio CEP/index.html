@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Javascript CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="formCadastro" class="form" action="." form method="get">
+        <h3>Informe o CEP</h3>
+    
+        <span>Digite o CEP e ao sair o campo do endereço será completado. Pode utilizar a tecla TAB após digitar o CEP.</span>
+        
+        <div>
+            <label>
+                Cep:
+                <input type="text" name="cep" value="" size="10" maxlength="9" id="cep" onblur="pesquisacep(this.value);">
+                <span class="erro"></span>
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Rua:
+                <input type="text" name="rua" size="60" id="rua">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Bairro:
+                <input type="text" name="bairro" size="40" id="bairro">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Cidade:
+                <input type="text" name="cidade" size="40" id="cidade">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Estado:
+                <input type="text" name="uf" size="2" id="uf">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                IBGE:
+                <input type="number" name="ibge" size="8" id="ibge">
+            </label>
+        </div>
+
+    </form>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
